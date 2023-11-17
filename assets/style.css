@@ -114,6 +114,7 @@ body {
 /* content */
 
 .main_title {
+  color: var(--White);
   font-size: 18px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -229,11 +230,5 @@ body {
     top: 20px;
     width: 8px;
     height: 8px;
-  }
-  .bg_hills {
-    height: 200px;
-  }
-  .bg_stars {
-    height: 300px;
   }
 }
