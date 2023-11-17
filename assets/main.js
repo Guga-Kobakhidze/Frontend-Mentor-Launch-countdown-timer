@@ -5,8 +5,8 @@ timers.forEach((element) => {
 });
 
 const countDate = new Date();
-countDate.setDate(countDate.getDate() + 8); // Add 24 days
-countDate.setHours(countDate.getHours() + 24); // Add 24 hours
+countDate.setDate(countDate.getDate() + 8);
+countDate.setHours(countDate.getHours() + 24);
 let previousTimeBetweenDates;
 
 updateCountdown();
